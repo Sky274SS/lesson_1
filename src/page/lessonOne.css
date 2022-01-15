@@ -1,0 +1,42 @@
+.oneContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.description{
+    color:aliceblue;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+}
+.block>div{
+    width: 100px;
+    background-color: #003153;
+    padding: 5px;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.block > div:not(:last-child){
+    margin-right: 10px;
+}
+.block > div > div{
+    color:azure;
+    cursor: pointer;
+
+}
+.block > div > div:hover{
+    opacity: 0.5;
+
+}
+.block > div > div:not(:first-child){
+    margin-top: 10px;
+}
+.block > div > div:first-child{
+    color:rgb(110, 110, 110);
+}

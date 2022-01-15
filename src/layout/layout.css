@@ -1,0 +1,70 @@
+.layout{
+    width: 1024px;
+    height: 760px;
+    background-color: rgb(32, 95, 146);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lessonTitle{
+    color:white;
+    background-color: rgb(23, 66, 102);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.lessonTitle:hover{
+    background-color: rgb(51, 152, 235);
+}
+.twoContainer{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #003153;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.twoContainer > p{
+    margin-left: 5px;
+    color: rgb(24, 184, 19);
+}
+.threeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin: 10px 0 10px 0;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #003153;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+button:hover{
+    background-color: rgb(38, 109, 167);
+}
+.components{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.componentsText{
+    color:white;
+    font-size: 20px;
+}
